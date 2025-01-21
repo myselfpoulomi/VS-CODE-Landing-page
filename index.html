@@ -252,7 +252,7 @@
     </div>
 
 
-    <div class=" h-[600px] flex flex-col  items-center md:gap-4 gap-1 mb-[30px] mt-[70px]">
+    <div class="  flex flex-col  items-center md:gap-4 gap-1 mb-[30px] mt-[70px]">
         <div class="flex flex-col md:items-center items-start md:w-[600px] w-[350px] gap-2 mt-4 mb-[30px] ">
             <h1 class="text-gray-300 text-[25px] font-bold">Code with rich features</h1>
             <p class="text-[17px] font-medium text-gray-300 md:text-center text-start">There's a lot more to an editor. Whether it's
@@ -335,26 +335,34 @@
         
     </div>
 
-    <footer class="w-full flex justify-center">
-        <div class=" w-[1250px] h-[300px] flex justify-between items-center">
-            <div class=" flex flex-col gap-2">
-            <div class="flex  items-center gap-6">
-                <img class="h-[20px] w-[20px]" src="icons/x-icon.svg" alt="">
-                <img class="h-[28px] w-[28px]" src="icons/github-icon.svg" alt="">
-                <img class="h-[28px] w-[28px]" src="icons/youtube-icon.svg" alt="">
+    
+
+    <footer class="w-full flex justify-center md:my-[100px] my-[40px]">
+        <div class="w-full max-w-[1250px] h-auto flex flex-row justify-between items-center px-4 py-4">
+            <!-- Left Section: Icons and Links -->
+            <div class="flex flex-col items-start gap-4">
+                <div class="flex items-center gap-6">
+                    <img class="md:h-[20px] md:w-[20px] h-[15px] w-[15px]" src="icons/x-icon.svg" alt="X Icon">
+                    <img class="md:h-[28px] md:w-[28px] h-[20px] w-[20px] " src="icons/github-icon.svg" alt="GitHub Icon">
+                    <img class="md:h-[28px] md:w-[28px] h-[20px] w-[20px]" src="icons/youtube-icon.svg" alt="YouTube Icon">
+                </div>
+                <div class="flex text-gray-300 md:gap-6 gap-2 md:text-[15px] text-[13px]">
+                    <p>Support</p>
+                    <p>Privacy</p>
+                    <p>Terms of Use</p>
+                    <p>License</p>
+                </div>
             </div>
-            <div class="text-gray-300  flex items-center gap-6 w-[400px]">
-                <p>Support</p>
-                <p>Privacy</p>
-                <p>Terms of Use</p>
-                <p>License</p>
+    
+            <!-- Right Section: Microsoft Logo -->
+            <div class="flex items-center mt-4 md:mt-0">
+                <img class="md:h-[28px] md:w-[28px] h-[20px] w-[20px]" src="icons/microsoft.svg" alt="Microsoft Logo">
             </div>
-        </div>
-        <div>
-            <img class="h-[28px] w-[28px]" src="icons/microsoft.svg" alt="">
-        </div>
         </div>
     </footer>
+    
+    
+    
 
 
 
