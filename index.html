@@ -17,14 +17,14 @@
                 <img class="w-[30px] h-[30px]" src="https://code.visualstudio.com/favicon.ico" alt="">
                 <span class="text-[24px] text-white font-medium">Visual Studio Code</span>
             </div>
-    
+
             <!-- Hamburger Menu Icon -->
             <div class="md:hidden">
                 <button id="menu-toggle" class="text-white text-2xl">
                     <i class="bx bx-menu"></i>
                 </button>
             </div>
-    
+
             <!-- Navigation Items (Hidden by default on smaller screens) -->
             <div id="nav-items" class="hidden md:flex gap-2 items-center">
                 <span class="text-gray-300 cursor-pointer pl-[10px]" href="/">Docs</span>
@@ -35,7 +35,7 @@
                 <span class="text-gray-300 cursor-pointer pl-[10px]" href="/">FAQS</span>
                 <span class="text-gray-300 cursor-pointer pl-[10px]" href="/">GitHub Copilot</span>
             </div>
-    
+
             <!-- Search and Download Section -->
             <div class="hidden md:flex gap-1">
                 <div
@@ -46,10 +46,10 @@
                 <button class="bg-blue-700 text-white rounded-md px-3 py-1">Download</button>
             </div>
         </div>
-    
+
         <!-- Mobile Menu -->
-        <div id="mobile-menu" 
-             class="hidden flex-col gap-2 w-full md:hidden transition-all duration-300 ease-in-out overflow-hidden">
+        <div id="mobile-menu"
+            class="hidden flex-col gap-2 w-full md:hidden transition-all duration-300 ease-in-out overflow-hidden">
             <div class="flex flex-col gap-2 items-start">
                 <span class="text-gray-300 cursor-pointer pl-[10px]" href="/">Docs</span>
                 <span class="text-gray-300 cursor-pointer pl-[10px]" href="/">Updates</span>
@@ -88,13 +88,29 @@
                 Get Copilot Free
             </button>
         </div>
-        
-        
     </div>
 
-    
-    
-    
+    <div class="border h-[900px] mt-6 w-full">
+
+    </div>
+
+    <div class=" mt-6 flex h-[500px] justify-center items-center w-full gap-14">
+        <div class="border h-[380px] w-[380px] rounded-[17px] flex flex-col items-center">
+            <h1>Choose the model that works for you</h1>
+            <p>Pick the model that works best for your project and team, including GPT 4o and Claude Sonnet.</p>
+            <img src="images/choose-model-dark.webp" alt="">
+        </div>
+        <div class="border h-[380px] w-[380px] rounded-[17px]">
+
+        </div>
+        <div class="border h-[380px] w-[380px] rounded-[17px]">
+
+        </div>
+    </div>
+
+
+
+
 
 
 
@@ -107,7 +123,7 @@
         // JavaScript for toggling the menu with transition
         const menuToggle = document.getElementById('menu-toggle');
         const mobileMenu = document.getElementById('mobile-menu');
-    
+
         menuToggle.addEventListener('click', () => {
             if (mobileMenu.classList.contains('hidden')) {
                 mobileMenu.classList.remove('hidden');
