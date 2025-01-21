@@ -90,40 +90,69 @@
         </div>
     </div>
 
-    <div class="border h-[900px] mt-6 w-full">
-
+    <div class=" mt-6 flex flex-col items-center">
+        <!-- Video Container -->
+        <div
+            class="p-4 sm:p-6 md:p-10 lg:p-12 bg-gradient-to-r from-[#076AFF] from-10% via-[#589CFE] via-30% to-[#97C2FC] to-90% rounded-lg">
+            <video class="h-[200px] sm:h-[300px] md:h-[400px] lg:h-[700px] rounded-lg" src="video/hero-dark-lg.webm" controls></video>
+        </div>
+    
+        <!-- Play Button -->
+        <button
+            class="bg-transparent text-gray-100 text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-medium rounded-md px-3 sm:px-4 md:px-6 py-2 mt-4 border border-transparent hover:border-gray-100 transition duration-300 ease-in-out">
+            Play
+        </button>
     </div>
-
-    <div class=" mt-6 flex h-[500px] justify-center items-center w-full gap-14">
+    
+    <!-- Cards Section -->
+    <div class="mt-6 px-4 sm:px-8 md:px-12 flex flex-col md:flex-row justify-center items-center w-full gap-8 md:gap-10 mb-[20px]">
+        <!-- Card 1 -->
         <div
-            class="border h-[360px] w-[360px] rounded-[17px] flex flex-col  px-4 py-4 bg-zinc-900 items-center border-gray-300 border-opacity-50">
-            <h1 class="text-white font-bold text-[18px] ">Choose the model that works for you</h1>
-            <p class="text-white font-medium text-[15px] px-4 py-4">Pick the model that works best for your project and
-                team, including GPT 4o and Claude Sonnet.</p>
-            <img src="images/choose-model-dark.webp" alt="">
+            class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50">
+            <h1 class="text-white font-bold text-[17px] sm:text-[19px]">Choose the model that works for you</h1>
+            <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Pick the model that works
+                best for your project and team, including GPT 4o and Claude Sonnet.</p>
+                <div class="">
+                    <img src="images/choose-model-dark.webp" alt="Choose Model" class="h-full w-full">
+                </div>
+            
         </div>
+        <!-- Card 2 -->
         <div
-            class="border h-[360px] w-[360px] rounded-[17px] flex flex-col  px-4 py-4 bg-zinc-900 items-center border-gray-300 border-opacity-50">
-            <h1 class="text-white font-bold text-[18px]">An expert on your codebase</h1>
-            <p class="text-white font-medium text-[15px] px-4 py-4">Copilot locally indexes your codebase to understand
-                what’s relevant and supplements that context to interactions with Copilot.</p>
-            <img src="images/multi-file-dark.webp" alt="">
+            class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50">
+            <h1 class="text-white font-bold text-[17px] sm:text-[19px]">An expert on your codebase</h1>
+            <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Copilot locally indexes your codebase to understand what’s relevant and supplements that context to interactions with Copilot.</p>
+            <div>
+                <img src="images/multi-file-dark.webp" alt="Choose Model" class="h-full w-full">
+            </div>
+            
         </div>
+        <!-- Card 3 -->
         <div
-            class="border h-[360px] w-[360px] rounded-[17px] flex flex-col  px-4 py-4 bg-zinc-900 items-center border-gray-300 border-opacity-50">
-            <h1 class="text-white font-bold text-[18px]">Personalized to your needs</h1>
-            <p class="text-white font-medium text-[15px] px-4 py-4">Copilot works the way you do. Customize Copilot's
-                prompts with details about your team's workflows, tools, and projects.</p>
-            <img class="mt-6" src="images/instructions-dark.webp" alt="">
+        class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50">
+        <h1 class="text-white font-bold text-[17px] sm:text-[19px]">Personalized to your needs</h1>
+        <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Copilot works the way you do. Customize Copilot's prompts with details about your team's workflows, tools, and projects.
+        </p>
+        <div>
+            <img src="images/instructions-dark.webp" alt="Choose Model" class="h-full w-full">
         </div>
+        
     </div>
-
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
     <div class="border h-[250px]">
 
     </div>
 
-    <div class=" mt-[60px] flex gap-14 justify-center py-4 px-8">
-        <div class="w-[350px] text-gray-300 flex flex-col justify-center pl-4 flex flex-col gap-2 ">
+    <div class=" mt-[60px] flex md:flex-row flex-col gap-14 justify-center md:py-4 md:px-8 px-4">
+        <div class="w-[350px] text-gray-300 flex flex-col justify-center pl-4 flex flex-col gap-2  ">
             <h1 class="text-[30px] font-bold">Create faster</h1>
             <p class="text-[16px] font-medium">Describe what you want to build in natural language, and Copilot Edits
                 takes care of the rest. Copilot Edits makes changes across files in your codebase with a UI designed for
@@ -134,12 +163,12 @@
                 dedicated sidebar panel or directly from within your code so you can stay in context.</p>
             <a class="text-blue-300 underline font-medium" href="/">Get answers from Copilot Chat</a>
         </div>
-        <div class="w-[40%]">
+        <div class="md:w-[40%] w-full ">
             <img class="h-full w-full  rounded-lg" src="images/swimlane-chat-dark.webp" alt="">
         </div>
     </div>
 
-    <div class=" mt-[60px] flex gap-14 justify-center py-4 px-8">
+    <div class=" mt-[60px] flex md:flex-row flex-col gap-14 justify-center md:py-4 md:px-8 px-4">
         <div class="w-[350px] text-gray-300 flex flex-col justify-center pl-4 flex flex-col gap-2 ">
             <h1 class="text-[30px] font-bold">Code efficiently</h1>
             <p class="text-[16px] font-medium">Copilot is your AI pair programmer infused directly into the editor. Just
@@ -148,7 +177,7 @@
                 some, or none of Copilot's suggestions. Copilot supports a broad range of languages and frameworks.</p>
             <a class="text-blue-300 underline font-medium" href="/">Pair program with Copilot</a>
         </div>
-        <div class="w-[40%]">
+        <div class="md:w-[40%] w-full ">
             <img class="h-full w-full  rounded-lg" src="images/completions-dark.webp" alt="">
         </div>
     </div>
@@ -176,12 +205,12 @@
                 some, or none of Copilot's suggestions. Copilot supports a broad range of languages and frameworks.</p>
             <a class="text-blue-300 underline font-medium" href="/">Pair program with Copilot</a>
         </div>
-        <div class="w-[40%]">
+        <div class="md:w-[40%] w-full ">
             <img class="h-full w-full  rounded-lg" src="images/completions-dark.webp" alt="">
         </div>
     </div>
 
-    <div class=" mt-[60px] flex gap-14 justify-center py-4 px-8">
+    <div class="mt-[60px] flex md:flex-row flex-col gap-14 justify-center md:py-4 md:px-8 px-4">
         <div class="w-[350px] text-gray-300 flex flex-col justify-center pl-4 flex flex-col gap-2 ">
             <h1 class="text-[30px] font-bold">Fully customizable</h1>
             <p class="text-[16px] font-medium">Customize your VS Code UI and layout so that it fits your coding style.
@@ -198,12 +227,12 @@
                 customizations and quickly switch between them or share them with others.</p>
 
         </div>
-        <div class="w-[40%]">
+        <div class="md:w-[40%] w-full ">
             <img class="h-full w-full  rounded-lg" src="images/swimlane-customized.png" alt="">
         </div>
     </div>
 
-    <div class=" mt-[60px] flex gap-14 justify-center py-4 px-8">
+    <div class="mt-[60px] flex md:flex-row flex-col gap-14 justify-center md:py-4 md:px-8 px-4">
         <div class="w-[350px] text-gray-300 flex flex-col justify-center pl-4 flex flex-col gap-2 ">
             <h1 class="text-[30px] font-bold">Code anywhere</h1>
             <p class="text-[16px] font-medium">Code wherever you're most productive, whether you're connected to the cloud, a remote repository, or in the browser with VS Code for the Web (vscode.dev).</p>
@@ -212,7 +241,7 @@
 
             <p><a class="text-blue-300 underline font-medium" href="/">Built-in Source Control </a> empowers you with Git support out-of-the-box. Many other source control providers are available through extensions.</p>
         </div>
-        <div class="w-[40%]">
+        <div class="md:w-[40%] w-full">
             <img class="h-full w-full  rounded-lg" src="images/swimlane-anywhere.png" alt="">
         </div>
     </div>
