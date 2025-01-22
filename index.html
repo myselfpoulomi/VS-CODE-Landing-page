@@ -19,7 +19,8 @@
 
 
 
-    <nav class="flex flex-col gap-2 justify-center items-center py-4  sticky top-0 z-50 bg-[#0e0e0e] shadow-[0_4px_6px_#0a0a0a]">
+    <nav
+        class="flex flex-col gap-2 justify-center items-center py-4  sticky top-0 z-50 bg-[#0e0e0e] shadow-[0_4px_6px_#0a0a0a]">
         <div class="w-full px-4 flex justify-between items-center md:pl-[200px] md:pr-[300px]">
             <!-- Logo Section -->
             <div class="flex items-center gap-2">
@@ -142,39 +143,39 @@
 
 
     <div
-    class="mt-6 px-4 sm:px-8 md:px-12 flex flex-col md:flex-row justify-center items-center w-full gap-8 md:gap-10 mb-[20px]">
-    <!-- Card 1 -->
-    <div
-        class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50 hover:border-gray-100 transition-all duration-300">
-        <h1 class="text-white font-bold text-[17px] sm:text-[19px]">Choose the model that works for you</h1>
-        <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Pick the model that works
-            best for your project and team, including GPT 4o and Claude Sonnet.</p>
-        <div class="">
-            <img src="images/choose-model-dark.webp" alt="Choose Model" class="h-full w-full">
+        class="mt-6 px-4 sm:px-8 md:px-12 flex flex-col md:flex-row justify-center items-center w-full gap-8 md:gap-10 mb-[20px]">
+        <!-- Card 1 -->
+        <div
+            class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50 hover:border-gray-100 transition-all duration-300">
+            <h1 class="text-white font-bold text-[17px] sm:text-[19px]">Choose the model that works for you</h1>
+            <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Pick the model that works
+                best for your project and team, including GPT 4o and Claude Sonnet.</p>
+            <div class="">
+                <img src="images/choose-model-dark.webp" alt="Choose Model" class="h-full w-full">
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div
+            class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50 hover:border-gray-100 transition-all duration-300">
+            <h1 class="text-white font-bold text-[17px] sm:text-[19px]">An expert on your codebase</h1>
+            <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Copilot locally indexes your codebase
+                to understand what’s relevant and supplements that context to interactions with Copilot.</p>
+            <div>
+                <img src="images/multi-file-dark.webp" alt="Choose Model" class="h-full w-full">
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div
+            class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50 hover:border-gray-100 transition-all duration-300">
+            <h1 class="text-white font-bold text-[17px] sm:text-[19px]">Personalized to your needs</h1>
+            <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Copilot works the way you do.
+                Customize Copilot's prompts with details about your team's workflows, tools, and projects.
+            </p>
+            <div>
+                <img src="images/instructions-dark.webp" alt="Choose Model" class="h-full w-full">
+            </div>
         </div>
     </div>
-    <!-- Card 2 -->
-    <div
-        class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50 hover:border-gray-100 transition-all duration-300">
-        <h1 class="text-white font-bold text-[17px] sm:text-[19px]">An expert on your codebase</h1>
-        <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Copilot locally indexes your codebase
-            to understand what’s relevant and supplements that context to interactions with Copilot.</p>
-        <div>
-            <img src="images/multi-file-dark.webp" alt="Choose Model" class="h-full w-full">
-        </div>
-    </div>
-    <!-- Card 3 -->
-    <div
-        class="border w-full sm:w-[340px] md:w-[400px] h-auto rounded-[15px] flex flex-col md:px-8 md:py-6 p-4 bg-zinc-900 items-center border-gray-300 border-opacity-50 hover:border-gray-100 transition-all duration-300">
-        <h1 class="text-white font-bold text-[17px] sm:text-[19px]">Personalized to your needs</h1>
-        <p class="text-white font-medium text-[15px] sm:text-[16px] px-6 py-3">Copilot works the way you do.
-            Customize Copilot's prompts with details about your team's workflows, tools, and projects.
-        </p>
-        <div>
-            <img src="images/instructions-dark.webp" alt="Choose Model" class="h-full w-full">
-        </div>
-    </div>
-</div>
 
 
 
@@ -240,26 +241,160 @@
     <div class="border mt-[60px] flex gap-14 justify-center py-4 px-8">
         <div class="w-[350px] text-gray-300 flex flex-col justify-center pl-4 flex flex-col gap-2 ">
             <h1 class="text-[30px] font-bold">Code with Extensions</h1>
-            <p class="text-[16px] font-medium">Extensions let you customize VS Code and Copilot with AI-powered features grounded securely in your team's data and workflows. Grab one from the gallery and add it to chat like @azure, or <a class="text-blue-300 underline font-medium" href="/"> build your own Copilot extension</a> to power your team's unique scenarios.</p>
-            
+            <p class="text-[16px] font-medium">Extensions let you customize VS Code and Copilot with AI-powered features
+                grounded securely in your team's data and workflows. Grab one from the gallery and add it to chat like
+                @azure, or <a class="text-blue-300 underline font-medium" href="/"> build your own Copilot extension</a>
+                to power your team's unique scenarios.</p>
+
         </div>
-        <div class="md:w-[40%] w-full ">
-            <img class="h-full w-full  rounded-lg" src="images/completions-dark.webp" alt="">
+        <div class="md:w-[40%] w-full flex flex-col gap-4 ">
+            <div class="flex gap-4">
+
+                <!-- python-extension -->
+
+                <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[40px] w-[40px]" src="icons/python-extension.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h1 class="text-[18px] font-medium text-gray-300">Python</h1>
+                            <p class="text-[14px] font-normal text-gray-100">Adds rich language support for Python</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stripe -->
+
+               <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[40px] w-[40px] rounded-md" src="icons/stripe-extension.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h1 class="text-[18px] font-medium text-gray-300">Stripe</h1>
+                            <p class="text-[14px] font-normal text-gray-100">Build, test, and use Stripe inside your editor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- c/c++ extension  -->
+                
+                <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[40px] w-[40px]" src="icons/c-extension.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h1 class="text-[18px] font-medium text-gray-300">C/C++</h1>
+                            <p class="text-[14px] font-normal text-gray-100">Adds rich language support for C/C++</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+           <div class="flex gap-4">
+
+            <!-- jupyter -->
+
+                <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[45px] w-[45px] rounded-md" src="icons/jupyter-extension.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h1 class="text-[18px] font-medium text-gray-300">Jupyter</h1>
+                            <p class="text-[14px] font-normal text-gray-100">Supercharge your Git experience</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- gitlence -->
+
+               <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[40px] w-[40px]" src="icons/gitlens-extension.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h1 class="text-[18px] font-medium text-gray-300">Gitlens</h1>
+                            <p class="text-[14px] font-normal text-gray-100">Adds rich language support for Python</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- chash -->
+                
+                <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[40px] w-[40px]" src="icons/cs-dev-kit-extension.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h1 class="text-[18px] font-medium text-gray-300">C# Dev Kit</h1>
+                            <p class="text-[14px] font-normal text-gray-100">Powerful tools for C# environment</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="flex gap-4">
+
+                <!-- mongodb -->
+
+                <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[40px] w-[40px]" src="icons/mongodb-extension.png" alt="">
+                        <div class="flex flex-col gap-2">
+                            <h1 class="text-[18px] font-medium text-gray-300">MongoDB</h1>
+                            <p class="text-[14px] font-normal text-gray-100">Extension for @MongoDB agent</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- azur  -->
+
+
+               <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[40px] w-[40px]" src="icons/azure.png" alt="">
+                        <div class="flex flex-col gap-1">
+                            <h1 class="text-[17px] font-medium text-gray-300">GitHub Copilot for Azure </h1>
+                            <p class="text-[13px] font-normal text-gray-100">Streamline the process of developing for Azure</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- remote development -->
+
+
+                
+                <div class="bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out w-[250px] h-[130px] p-4 bg-zinc-900 rounded-lg ">
+                    <div class="flex gap-4 ">
+                        <img class="h-[40px] w-[40px]" src="icons/remote-extension.png" alt="">
+                        <div class="flex flex-col gap-1">
+                            <h1 class="text-[16px] font-medium text-gray-300">Remote Development</h1>
+                            <p class="text-[13px] font-normal text-gray-100">Open folders in a container in a remote machine</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
         </div>
     </div>
+
+
+
+    <!-- pending part2 -->
+
+
 
     <div class="border mt-[60px] flex gap-14 justify-center py-4 px-8">
         <div class="w-[350px] text-gray-300 flex flex-col justify-center pl-4 flex flex-col gap-2 ">
             <h1 class="text-[30px] font-bold">Code in any language</h1>
-            <p class="text-[16px] font-medium">VS Code supports almost every major programming language. Several ship in the box, like JavaScript, TypeScript, CSS, and HTML, but extensions for others can be found in the VS Code Marketplace.</p>
-          
+            <p class="text-[16px] font-medium">VS Code supports almost every major programming language. Several ship in
+                the box, like JavaScript, TypeScript, CSS, and HTML, but extensions for others can be found in the VS
+                Code Marketplace.</p>
+
         </div>
         <div class="w-[40%]">
             <img class="h-full w-full  rounded-lg" src="images/completions-dark.webp" alt="">
         </div>
     </div>
 
- 
+
 
     <!-- pending part -->
 
@@ -327,7 +462,8 @@
     <div class="  flex flex-col  items-center md:gap-4 gap-1 mb-[30px] mt-[70px]">
         <div class="flex flex-col md:items-center items-start md:w-[600px] w-[350px] gap-2 mt-4 mb-[30px] ">
             <h1 class="text-gray-300 text-[25px] font-bold">Code with rich features</h1>
-            <p class="text-[17px] font-medium text-gray-300 md:text-center text-start">There's a lot more to an editor. Whether it's
+            <p class="text-[17px] font-medium text-gray-300 md:text-center text-start">There's a lot more to an editor.
+                Whether it's
                 using built-in features or rich extensions, there's something for everyone.</p>
         </div>
         <div class=" flex md:gap-4 gap-3 flex-col md:flex-row md:p-0 px-4 py-2">
@@ -376,35 +512,39 @@
                 <img class="h-[45px] w-[45px] bg-zinc-700 p-2 rounded-md" src="icons/codicon-local-history.svg"
                     alt="Integrated Terminal Icon">
                 <h1 class="text-[20px] font-medium text-gray-300">Local history</h1>
-                <p class="text-[16px] font-normal text-gray-100">Never lose your changes with automatically tracked local history.</p>
+                <p class="text-[16px] font-normal text-gray-100">Never lose your changes with automatically tracked
+                    local history.</p>
             </div>
 
             <div
-            class="md:w-[300px] w-full h-[210px] flex flex-col gap-1 items-start justify-center p-3 rounded-lg bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out">
+                class="md:w-[300px] w-full h-[210px] flex flex-col gap-1 items-start justify-center p-3 rounded-lg bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out">
                 <img class="h-[45px] w-[45px] bg-zinc-700 p-2 rounded-md" src="icons/codicon-themes.svg"
                     alt="Integrated Terminal Icon">
                 <h1 class="text-[20px] font-medium text-gray-300">Themes</h1>
-                <p class="text-[16px] font-normal text-gray-100">Your theme is an extension of your personality. Add some flair to your editor and add your touch.
+                <p class="text-[16px] font-normal text-gray-100">Your theme is an extension of your personality. Add
+                    some flair to your editor and add your touch.
                 </p>
             </div>
 
             <div
-            class="md:w-[300px] w-full h-[210px] flex flex-col gap-1 items-start justify-center p-3 rounded-lg bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out">
+                class="md:w-[300px] w-full h-[210px] flex flex-col gap-1 items-start justify-center p-3 rounded-lg bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out">
                 <img class="h-[45px] w-[45px] bg-zinc-700 p-2 rounded-md" src="icons/codicon-accessibility.svg"
                     alt="Integrated Terminal Icon">
                 <h1 class="text-[20px] font-medium text-gray-300">Accessibility</h1>
-                <p class="text-[16px] font-medium text-gray-100">Optimized experience for screen readers, high contrast themes, and keyboard-only navigation.</p>
+                <p class="text-[16px] font-medium text-gray-100">Optimized experience for screen readers, high contrast
+                    themes, and keyboard-only navigation.</p>
             </div>
 
             <div
-            class="md:w-[300px] w-full h-[210px] flex flex-col gap-1 items-start justify-center p-3 rounded-lg bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out">
+                class="md:w-[300px] w-full h-[210px] flex flex-col gap-1 items-start justify-center p-3 rounded-lg bg-zinc-900 border border-gray-700 hover:border-blue-500 transition duration-300 ease-in-out">
                 <img class="h-[45px] w-[45px] bg-zinc-700 p-2 rounded-md" src="icons/codicon-web.svg"
                     alt="Integrated Terminal Icon">
                 <h1 class="text-[20px] font-medium text-gray-300">Web support</h1>
-                <p class="text-[16px] font-medium text-gray-100">Whether you are on your phone, tablet, or desktop, you can access your code from anywhere.</p>
+                <p class="text-[16px] font-medium text-gray-100">Whether you are on your phone, tablet, or desktop, you
+                    can access your code from anywhere.</p>
             </div>
         </div>
-        
+
     </div>
 
 
@@ -419,8 +559,10 @@
             <div class="flex flex-col items-start gap-4">
                 <div class="flex items-center gap-6">
                     <img class="md:h-[20px] md:w-[20px] h-[15px] w-[15px]" src="icons/x-icon.svg" alt="X Icon">
-                    <img class="md:h-[28px] md:w-[28px] h-[20px] w-[20px] " src="icons/github-icon.svg" alt="GitHub Icon">
-                    <img class="md:h-[28px] md:w-[28px] h-[20px] w-[20px]" src="icons/youtube-icon.svg" alt="YouTube Icon">
+                    <img class="md:h-[28px] md:w-[28px] h-[20px] w-[20px] " src="icons/github-icon.svg"
+                        alt="GitHub Icon">
+                    <img class="md:h-[28px] md:w-[28px] h-[20px] w-[20px]" src="icons/youtube-icon.svg"
+                        alt="YouTube Icon">
                 </div>
                 <div class="flex text-gray-300 md:gap-6 gap-2 md:text-[15px] text-[13px]">
                     <p>Support</p>
@@ -429,16 +571,16 @@
                     <p>License</p>
                 </div>
             </div>
-    
+
             <!-- Right Section: Microsoft Logo -->
             <div class="flex items-center mt-4 md:mt-0">
                 <img class="md:h-[28px] md:w-[28px] h-[20px] w-[20px]" src="icons/microsoft.svg" alt="Microsoft Logo">
             </div>
         </div>
     </footer>
-    
-    
-    
+
+
+
 
 
 
